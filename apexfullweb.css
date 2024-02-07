@@ -1,7 +1,7 @@
 .apexmain {
   height: 250px;
   width: 100%;
-  background-image: url(../apexfullweb/ApexBanner.jpeg);
+  background-image: url(./ApexBanner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
