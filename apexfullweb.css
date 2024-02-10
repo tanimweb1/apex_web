@@ -1,7 +1,7 @@
 .apexmain {
   height: 250px;
   width: 100%;
-  background-image: url(./ApexBanner.jpeg);
+  background-image: url(../apexfullweb/ApexBanner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
@@ -93,7 +93,6 @@
   top: 270px;
   left: 850px;
   z-index: 1;
-  
 }
 .display {
   font-size: larger;
@@ -103,15 +102,14 @@
   margin: 5px;
   margin-right: 10px;
 }
-.apexweb{
-    font-size: larger;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-.web15{
- 
+.apexweb {
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.web15 {
   display: inline;
 }
-.webimg1{
+.webimg1 {
   color: blueviolet;
   display: grid;
   grid-row: 1;
@@ -132,34 +130,30 @@
 .qqq {
   font-size: 10px;
   padding-left: 15px;
-
-
 }
-.subimg12{
+.subimg12 {
   position: relative;
   margin-top: 50px;
 }
-.img12w{
+.img12w {
   position: absolute;
 }
-.img13w{
+.img13w {
   position: absolute;
   margin-left: 1520px;
   margin-top: 160px;
-  
-
 }
-.txt12{
+.txt12 {
   color: black;
   position: absolute;
   margin-top: 800px;
   margin-left: 1400px;
   font-size: 40px;
   color: white;
-   text-shadow: 6px;
-   font-weight: bold;
+  text-shadow: 6px;
+  font-weight: bold;
 }
-.txt13{
+.txt13 {
   position: absolute;
   color: black;
   margin-top: 855px;
@@ -168,7 +162,7 @@
   color: white;
   font-weight: bold;
 }
-.txt14{
+.txt14 {
   color: rgb(0, 0, 0);
   margin-top: 890px;
   margin-left: 1670px;
@@ -181,12 +175,13 @@
 
   text-shadow: white;
 }
-.txt14:hover{
-  color:white ;
+.txt14:hover {
+  color: white;
   background-color: rgb(16, 16, 16);
 }
 .wedding {
-  color: rgb(0, 0, 0);}
+  color: rgb(0, 0, 0);
+}
 
 .main29 {
   position: relative;
@@ -228,7 +223,7 @@
 }
 .boxname {
   display: block;
-  font-weight: 600;  
+  font-weight: 600;
   font-size: 25px;
 }
 .price {
@@ -242,14 +237,13 @@
 .wedbox1 {
   padding: 0 350px;
 }
-.weddingbox{
+.weddingbox {
   margin-top: 1650px;
-  
 }
 
 .offer {
-  margin: 5px 15px;
-  padding: 10px;
+  margin-right: 90px;
+  padding: 45px;
   display: flex;
   justify-content: space-between;
 }
@@ -264,14 +258,14 @@
 }
 .promo_txt {
   position: absolute;
-  bottom: 10px;
+  
   width: 550px;
   text-align: center;
   align-items: center;
   align-content: center;
-  margin-left: 25px;
+  margin-left: 16px;
   background-color: white;
-  bottom: -40px;
+  bottom: -20px;
 }
 .top {
   margin: 0 10px;
@@ -279,11 +273,12 @@
 .txtln1 {
   font-size: 20px;
   font-weight: 800;
-  
+ 
 }
 .txtln2 {
   font-size: 20px;
   padding: 10px;
+  
 }
 .downleft {
   margin: 80px 0;
@@ -299,7 +294,8 @@
   display: block;
   text-align: center;
 }
-.footer , .second_footer {
+.footer,
+.second_footer {
   display: flex;
   justify-content: space-between;
 }
@@ -309,18 +305,23 @@
 .worl-c {
   font-size: 15px;
 }
-.allmedia {
+.xx_all_media {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.all_media1 {
+.xx_all_media1 {
   display: block;
   text-align: center;
+  margin-left: 90px;
+  margin-top: 23px;
 }
 .xz {
   margin: 5px;
 }
-.blokin , .deals , .rewards , .social_media {
+.blokin,
+.deals,
+.rewards,
+.social_media {
   width: 25%;
   padding: 5px 10px;
 }
@@ -333,17 +334,24 @@
 .rewards {
   border-right: 1px solid rgb(230, 215, 215);
 }
+.downup {
+  border-right: 1px solid rgb(230, 215, 215);
+}
 .footerimg {
   padding-left: 170px;
 }
 .second_footer {
   margin-top: 30px;
+  margin-right: 30px;
+  justify-content: space-around;
 }
 .inptmail {
   height: 30px;
   width: 250px;
   margin-left: 40px;
 }
+
+
 .bton {
   background-color: black;
   color: white;
@@ -383,12 +391,15 @@ li a:hover {
 .visacard {
   justify-items: center;
   align-items: center;
-  margin-left: 60px;
+  margin-left: 90px;
+}
+.mainvisacard{
+  margin-right: ;
 }
 .abs_bottom {
   position: absolute;
   bottom: 0;
-  width: 100VW;
+  width: 100vw;
   background-color: black;
   color: white;
 }
